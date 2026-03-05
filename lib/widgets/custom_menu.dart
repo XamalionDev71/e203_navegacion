@@ -11,15 +11,15 @@ class CustomMenu extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
           TextButton(
-            onPressed: (){},
+            onPressed: () => Navigator.pushNamed(context, '/home'),
             child: Text('Home')
           ),
           TextButton(
-            onPressed: (){},
+            onPressed: () => Navigator.pushNamed(context, '/flutter'),
             child: Text('Flutter')
           ),
           TextButton(
-            onPressed: (){},
+            onPressed: () => Navigator.pushNamed(context, '/404'),
             child: Text('Otra Página')
           ),
         ],
